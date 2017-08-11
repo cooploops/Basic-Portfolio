@@ -1,0 +1,49 @@
+.container {
+	width: 960px;
+}
+
+header {
+	border: 1px solid black;
+}
+
+#name {
+	border:1px solid black;
+}
+
+#me {
+	float:left;
+}
+
+nav {
+	border:1px solid black;
+	text-align: center;
+}
+
+.mainContent {
+	width: 650px;
+}
+
+.sidebar {
+	border: 1px solid black;
+	text-align: center;
+	width: 270px;
+}
+
+.main {
+	height: 100%;
+}
+
+footer {
+	position: relative;
+	bottom:0;
+	height: 5em;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.footerBar {
+	height: 95%;
+	border: 1px solid black;
+	position: absolute;
+	bottom:0;
+}
