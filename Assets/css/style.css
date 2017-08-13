@@ -1,49 +1,55 @@
+html body{
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
 .container {
 	width: 960px;
+  	height: 100%;
+  	position:relative;
+  	bottom: 0;
 }
 
 header {
 	border: 1px solid black;
 }
 
-#name {
-	border:1px solid black;
+
+main h2 h3 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+main p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.name {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.2em;
+  	text-align: center;
 }
 
 #me {
-	float:left;
-}
-
-nav {
-	border:1px solid black;
-	text-align: center;
-}
-
-.mainContent {
-	width: 650px;
+  	float: left;
 }
 
 .sidebar {
-	border: 1px solid black;
 	text-align: center;
-	width: 270px;
+  	height: 200px;
+
 }
 
-.main {
-	height: 100%;
+.links {
+	display:inline;
 }
 
 footer {
-	position: relative;
-	bottom:0;
 	height: 5em;
-	width: 100%;
-	border: 1px solid black;
-}
-
-.footerBar {
-	height: 95%;
-	border: 1px solid black;
-	position: absolute;
-	bottom:0;
+	border-top: 0.5em solid black;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	flex-shrink: 0;
 }
