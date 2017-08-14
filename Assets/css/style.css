@@ -47,6 +47,25 @@ main p {
 	display:inline;
 }
 
+.portfolioImg {
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.img-container {
+	width: 100%;
+	position: relative;
+}
+
+.img-container h6 {
+	min-width:12.4em;
+	position:absolute;
+	top:8em;
+	left:2.89em;
+	background: rgba(0,0,0,0.5);
+	color:mintcream;
+}
+
 footer {
 	height: 5em;
 	border-top: 0.5em solid black;
