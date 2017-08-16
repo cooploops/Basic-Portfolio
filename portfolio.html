@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
+<div class="background-image"></div>
 <head>
 	<meta charset="UTF-8">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="Assets/css/reset.css" type="text/css"> -->
 	<link rel="stylesheet" href="Assets/css/style.css" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="Assets/js/portfolio.js"></script>
 	<title>TJ Cooper's Portfolio</title>
 </head>
 	<body>
@@ -21,38 +25,40 @@
 					</nav>
 			</div>
 		 </header>
-		 <main class="row">
-					<div class="col-sm-8 mainContent pt-3">
-						<h2 class="pl-1">Portfolio</h2>
-						<div class="row">
-							<div class="col-sm text-center">
-								<div class="img-container">
-							 		<a href="#"><img class="portfolioImg img-thumbnail" src="https://placeimg.com/200/150/tech" alt="thumbnail image of portfolio item"><h6>Link 1</h6></a>
-							 	</div>
-							 	<div class="img-container">
-							 		<a href="#"><img class="portfolioImg img-thumbnail" src="https://placeimg.com/200/150/tech" alt="thumbnail image of portfolio item"></a>
-							 	</div>
-							</div>
-							<div class="col-sm text-center">
-								<div class="img-container">
-									<a href="#"><img class="portfolioImg img-thumbnail" src="https://placeimg.com/200/150/tech" alt="thumbnail image of portfolio item"></a>
+		 <main class="row justify-content between">
+					<div class="col-sm-8 mt-3">
+						<div class="contentHolder px-1">
+							<h2 class="pl-1">Portfolio</h2>
+							<div class="row">
+								<div class="col-sm text-center">
+									<div class="img-container" id="port1">
+								 		<a href="#"><img class="portfolioImg img-thumbnail" src="https://placeimg.com/200/150/tech" alt="thumbnail image of portfolio item"><h6>Link 1</h6></a>
+								 	</div>
+								 	<div class="img-container" id="port2">
+								 		<a href="#"><img class="portfolioImg img-thumbnail" src="https://placeimg.com/200/150/tech" alt="thumbnail image of portfolio item"><h6>Link 2</h6></a>
+								 	</div>
 								</div>
-								<div class="img-container">
-									<a href="#"><img class="portfolioImg img-thumbnail" src="https://placeimg.com/200/150/tech" alt="thumbnail image of portfolio item"></a>
+								<div class="col-sm text-center" >
+									<div class="img-container" id="port3">
+										<a href="#"><img class="portfolioImg img-thumbnail"  src="https://placeimg.com/200/150/tech" alt="thumbnail image of portfolio item"><h6>Link 3</h6></a>
+									</div>
+									<div class="img-container" id="port4">
+										<a href="#"><img class="portfolioImg img-thumbnail"  src="https://placeimg.com/200/150/tech" alt="thumbnail image of portfolio item"><h6>Link 4</h6></a>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4 sidebar pt-3">
+					<div class="col-sm-4 sidebar pt-1 mt-3">
 						<h3>Connect with Me</h3>
 						<div class="links">
-							<a href="#"><img src="Assets/images/github64.png"></a>
-							<a href="#"><img src="Assets/images/linkedin64.png"></a>
-							<a href="#"><img src="Assets/images/overflow64.png"></a>
+							<a href="https://github.com/cooploops"><img src="Assets/images/github64.png"></a>
+							<a href="https://www.linkedin.com/in/thomas-cooper-2933806b/"><img src="Assets/images/linkedin64.png"></a>
+							<a href="https://stackoverflow.com/users/8117101/tjcoop321"><img src="Assets/images/overflow64.png"></a>
 						</div>
 					</div>
 			</main>
-			<footer class="row align-items-end">
+			<footer class="row align-items-center mt-2">
         		<div class="col text-center">
 				  ©Copyright TJ Cooper
         		</div>

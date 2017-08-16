@@ -1,10 +1,26 @@
-html body{
+html {
 	height: 100%;
 }
 
+.background-image {
+		background: url("../images/graffiti.jpg");
+		background-size: cover;
+		filter: blur(5px);
+		display:block;
+		z-index: 1;
+		position: fixed;
+		left:0;
+		right: 0;
+		height:100%;
+		
+}
+
 body {
+	position: relative;
 	display: flex;
 	flex-direction: column;
+	z-index:2;
+
 }
 
 .container {
@@ -12,35 +28,70 @@ body {
   	height: 100%;
   	position:relative;
   	bottom: 0;
+  	z-index:3;
+  	border-radius: 2px;
 }
 
 header {
-	border: 1px solid black;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	font-family: 'Permanent Marker', cursive;
+	background-color:snow;
+	border-radius:5px;
+}
+
+.nav a {
+	color: black;
+}
+
+.nav a:link {
+	color: black;
 }
 
 
+/*try to change the default colors for bootstrap nav stuff*/
+nav a .nav-link .nav-item .active {
+	color:mintcream;
+	background-color: black;
+}
+
 main h2 h3 {
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-family: 'Permanent Marker','Georgia', Times, 'Times New Roman', serif;
 }
 
 main p {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.contentHolder {
+	background-color: snow;
+	border-radius: 2px;
+	border: 3px solid black;
 }
 
 .name {
-	font-family: 'Permanent Marker', cursive;
 	font-size: 1.2em;
   	text-align: center;
 }
 
 #me {
   	float: left;
+  	border: 1px solid black;
+  	border-radius: 3px;
+}
+
+/*Portfolio hover*/
+.img-thumbnail:hover {
+	background-color: green;
 }
 
 .sidebar {
 	text-align: center;
   	height: 200px;
-
+  	background-color: snow;
+	border-radius: 2px;
+	border: 3px solid black;
 }
 
 .links {
@@ -55,20 +106,27 @@ main p {
 .img-container {
 	width: 100%;
 	position: relative;
+	filter: blur(3px);
 }
+
 
 .img-container h6 {
 	min-width:12.4em;
 	position:absolute;
 	top:8em;
-	left:2.89em;
+	left:2.7em;
 	background: rgba(0,0,0,0.5);
 	color:mintcream;
 }
 
 footer {
 	height: 5em;
-	border-top: 0.5em solid black;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-top: 7px solid black;
+	font-family: 'Permanent Marker','Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	flex-shrink: 0;
+	background-color: snow;
+	border-radius: 2px;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
 }
