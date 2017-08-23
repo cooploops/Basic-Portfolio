@@ -20,6 +20,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	z-index:2;
+	height: 100%;
 
 }
 
@@ -56,6 +57,10 @@ nav a .nav-link .nav-item .active {
 	background-color: black;
 }
 
+main {
+	margin-bottom: -50px;
+}
+
 main h2 h3 {
 	font-family: 'Permanent Marker','Georgia', Times, 'Times New Roman', serif;
 }
@@ -68,6 +73,10 @@ main p {
 	background-color: snow;
 	border-radius: 2px;
 	border: 3px solid black;
+}
+
+.contentHolder h2 {
+	font-family: 'Permanent Marker', 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .name {
@@ -88,10 +97,14 @@ main p {
 
 .sidebar {
 	text-align: center;
-  	height: 200px;
+  	height: 130px;
   	background-color: snow;
 	border-radius: 2px;
 	border: 3px solid black;
+}
+
+.sidebar h3 {
+	font-family: 'Permanent Marker', 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .links {
@@ -123,10 +136,12 @@ footer {
 	height: 5em;
 	border-top: 7px solid black;
 	font-family: 'Permanent Marker','Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	flex-shrink: 0;
 	background-color: snow;
 	border-radius: 2px;
 	border-left: 3px solid black;
 	border-right: 3px solid black;
 	border-bottom: 3px solid black;
+	position: absolute;
+	bottom: 0;
+	width:100%;
 }
