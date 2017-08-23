@@ -73,6 +73,7 @@ main p {
 	background-color: snow;
 	border-radius: 2px;
 	border: 3px solid black;
+	height: 100%;
 }
 
 .contentHolder h2 {
@@ -97,7 +98,7 @@ main p {
 
 .sidebar {
 	text-align: center;
-  	height: 130px;
+  	height: 150px;
   	background-color: snow;
 	border-radius: 2px;
 	border: 3px solid black;
